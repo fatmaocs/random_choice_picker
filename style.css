@@ -1,0 +1,57 @@
+:root
+{
+    --background_color:#2B88F0;
+    --choice_color:#F0932B;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+
+    background-color: #2b88f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    
+}
+
+.container
+{
+    width: 500px;
+}
+
+.container h3
+{
+   color: white;
+   text-align: center;
+   font-weight: 900;
+}
+
+.container #choice_txt
+{
+    width: 100%;
+    padding: 10px;
+}
+
+.choices .choice{
+    background-color: var(--choice_color);
+    color: white;
+
+    padding: 8px 18px;
+    margin: 10px 5px 5px 0px;
+    display: inline-block;
+    border-radius: 50px;
+
+}
+
+.choice.highlight {
+    background-color: #273c75;
+  }
